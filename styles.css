@@ -1,11 +1,17 @@
-*, *::after, *::before {
+html {
     margin: 0;
     padding: 0;
 }
 
 body {
     text-align: center;
+    background-image: url("https://cdn.shopify.com/s/files/1/1075/6980/files/cory_1024x1024.jpg?v=1505133222");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
+
 
 .cards-container {
     display: grid;
@@ -18,7 +24,7 @@ body {
     padding-bottom: 5%;
 }
 
-.card {
+.cards {
     place-self: center;
     width: 250px;
     height: 300px;
@@ -32,8 +38,8 @@ body {
 }
 
 
-.sneakers-title{ 
+.title{ 
     font-weight: bold;
-    font-size: 20em;
+    font-size: 25em;
     color: green;
 }
